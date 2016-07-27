@@ -9,6 +9,11 @@ h1 {
   font-size: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .overlay ul {
@@ -70,6 +75,11 @@ h1 {
   margin-top: 0;
 }
 
+.layer h2 a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .background p {
   font-size: 15px;
   margin-bottom: 25px;
@@ -77,6 +87,7 @@ h1 {
 
 .button {
   background-color: transparent;
+  color: #fff;
   border: 1px solid #fff;
   padding: 2px 45px;
   margin-top: 15px;
@@ -134,7 +145,7 @@ img {
 
 footer {
   height: 40px;
-  background-color: rgba(218, 173, 238, 0.2);
+  background-color: rgba(248, 239, 252, 1);
   text-align: center;
 }
 
