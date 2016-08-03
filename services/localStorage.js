@@ -1,4 +1,4 @@
-gnp_app.service('localStorage', [function()
+bucket_app.service('localStorage', [function()
 {
     this.set = function(key, data){
         window.localStorage.setItem(key, JSON.stringify(data));

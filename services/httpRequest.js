@@ -1,4 +1,4 @@
-gnp_app.service('httpRequest', ['$http', function($http)
+bucket_app.service('httpRequest', ['$http', function($http)
 {
     this.send = function(method, api, data)
     {   

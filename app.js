@@ -12,7 +12,8 @@ bucket_app.config(function($stateProvider, $urlRouterProvider)
         })
         .state('current_bucket_list',{
             url: "/currentbucketlist",
-            templateUrl: "main_current_bucket_list.html"
+            templateUrl: "main_current_bucket_list.html",
+            controller: "bucketlistController"
         });
         
 
