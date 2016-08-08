@@ -124,6 +124,13 @@ h6 {
   color: #fff;
 }
 
+.box__dragndrop,
+.box__uploading,
+.box__success,
+.box__error {
+  display: none;
+}
+
 footer {
   height: 40px;
   background-color: rgba(248, 239, 252, 1);
