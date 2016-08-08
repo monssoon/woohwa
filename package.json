@@ -19,8 +19,6 @@
   "dependencies": {
     "angular": "^1.5.8",
     "angular-ui-router": "^0.3.1",
-    "angular-ui-router-styles": "0.0.6",
-    "betsol-ng-ui-router-styles": "^0.2.1",
     "jquery": "^3.1.0"
   }
 }
