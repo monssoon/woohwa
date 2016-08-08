@@ -131,6 +131,19 @@ h6 {
   display: none;
 }
 
+.box.has-advanced-upload {
+  background-color: white;
+  outline: 2px dashed black;
+  outline-offset: -10px;
+}
+.box.has-advanced-upload .box__dragndrop {
+  display: inline;
+}
+
+.box.is-dragover {
+  background-color: grey;
+}
+
 footer {
   height: 40px;
   background-color: rgba(248, 239, 252, 1);

@@ -1,4 +1,4 @@
-var bucket_app = angular.module("bucket_app", ['ui.router']);
+var bucket_app = angular.module("bucket_app", ['ui.router','flow']);
 
 
 bucket_app.config(function($stateProvider, $urlRouterProvider)
