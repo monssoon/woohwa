@@ -46,11 +46,10 @@
                         <div flow-init="{target: '/upload'}"
                              flow-files-submitted="$flow.upload()"
                              flow-file-success="$file.msg = $message">
-
-                            <input type="file" flow-btn/>
-                            동그라미에 드래그해보떼여
-                            <div class="alert" flow-drop>
-                            <img src="http://www.placehold.it/200x150/EFEFEF/AAAAAA&amp;text=no+image">
+                            <div style="top: 45%; width: 100%; position: relative;">
+                                <span flow-btn><a style="padding-top: 5px; padding-bottom: 5px; cursor: pointer; text-decoration: none; font-weight: bold; color: #fff;">Choose file</a></span> <p style="color: #fff;">or drag it here.</p>
+                            </div>
+                            <div class="alert" flow-drop style="height: 390px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; background-color: #858585">
                             </div>
                             <div ng-repeat="file in $flow.files">
                             <img flow-img=file />
