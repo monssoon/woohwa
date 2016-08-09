@@ -8,7 +8,8 @@ bucket_app.config(function($stateProvider, $urlRouterProvider)
     $stateProvider
         .state('main',{
             url: "/main",
-            templateUrl: "main_cover.html"
+            templateUrl: "main_cover.html",
+            controller: "mainpageController"
         })
         .state('current_bucket_list',{
             url: "/currentbucketlist",

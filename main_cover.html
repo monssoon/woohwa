@@ -1,12 +1,14 @@
 <head>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <meta http-equiv="content-type" content="text/html; charset=euc-kr" />
 </head>
+<body>
 <section>
     <div class = "background">
         <div class = "layer">
-            <p>(currnet time: yyyy.mm.dd tt:mm AM or PM)</p>
-            <h2>CURRENT BUCKET LIST <a ui-sref="current_bucket_list">00</a></h2>
-            <h2>COMPLETED BUCKET LIST <a href="#">00</a></h2>
+            <p>{{clock | date:'yyyy.MM.dd HH:mm:ss'}}</p>
+            <h2>CURRENT BUCKET LIST <a ui-sref="current_bucket_list">{{uncomplete}}</a></h2>
+            <h2>COMPLETED BUCKET LIST <a href="#">{{complete}}</a></h2>
             <button type="button" class="button" formaction="#" style="margin-right: 20px;">registration</button>
             <button type="button" class="button" formaction="#" style="margin-left: 20px;">suggestion</button>
         </div>
@@ -63,3 +65,4 @@
         &copy; All rights are reserved by Monssoon.
     </p>
 </footer>
+</body>
