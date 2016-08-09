@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-  color: #000;
+  color: #fff;
   font: sans-serif;
   font-size: 30px;
   margin-top: 23px;
@@ -31,7 +31,7 @@ a {
 }
 
 .overlay li a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 
