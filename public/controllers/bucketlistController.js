@@ -1,5 +1,4 @@
 bucket_app.controller("bucketlistController", ["$scope", "httpRequest", function ($scope, httpRequest) {
-
     
     $scope.taewoo = {"email": '', "profileurl": ''};
     $scope.jaewha = {"email": '', "profileurl": ''};
