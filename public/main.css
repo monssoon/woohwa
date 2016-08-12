@@ -104,7 +104,7 @@ a {
 
 .pictureframe {
   position: relative;
-  min-height: 1000px;
+  /*min-height: 1000px;*/
   margin-top: 50px;
   margin-bottom: 150px;
   margin-left: 160px;
@@ -117,7 +117,7 @@ a {
   margin: 0;
 }
 
-/*.pic_sec_a {*/
+/*.row {*/
   /*height: 800px;*/
   /*margin-top: 56px;*/
 /*}*/
@@ -149,9 +149,6 @@ img {
 
 footer {
   position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
   height: 40px;
   background-color: rgba(248, 239, 252, 1);
   text-align: center;
