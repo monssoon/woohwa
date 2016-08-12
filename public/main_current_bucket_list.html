@@ -1,7 +1,7 @@
 <head>
     <link rel="stylesheet" type="text/css" href="main_2.css">
 </head>
-<body flow-prevent-drop>
+<body flow-prevent-drop ng-cloak>
 <hr>
 <section class="couple_section">
     <p> CURRENT BUCKET LIST </p>
@@ -61,7 +61,7 @@
                             <div class="col-sm-10">
                                 <p>[{{bucket[0].whenYear}}.{{bucket[0].whenMonth}}.{{bucket[0].whenDay}} ~ {{bucket[0].limitYear}}.{{bucket[0].limitMonth}}.{{bucket[0].limitDay}}] {{bucket[0].info}}</p>
                             </div>
-
+                            <md-datepicker ng-model="myDate" md-placeholder="Enter date"></md-datepicker>
                         </div>
                     </div>
 

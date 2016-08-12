@@ -1,5 +1,6 @@
 bucket_app.controller("bucketlistController", ["$scope", "httpRequest", function ($scope, httpRequest) {
 
+
     // Dropzone.autoDiscover = false;
 
     //Set options for dropzone
