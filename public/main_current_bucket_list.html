@@ -46,14 +46,22 @@
                         <div flow-init="{target: '/upload'}"
                              flow-files-submitted="$flow.upload()"
                              flow-file-success="$file.msg = $message">
-                            <div style="top: 45%; width: 100%; position: absolute;">
+                            <div style="top: 35%; width: 100%; position: absolute;">
                                 <span flow-btn><a style="padding-top: 5px; padding-bottom: 5px; cursor: pointer; text-decoration: none; font-weight: bold; color: #fff;">Choose file</a></span> <p style="color: #fff;">or drag it here.</p>
                             </div>
                             <div class="alert" flow-drop style="height: 390px; margin-left: 10px; margin-right: 10px; margin-top: 10px; margin-bottom: 10px; background-color: #858585">
                             </div>
-                            <div ng-repeat="file in $flow.files">
-                            <img flow-img=file />
-                                </div>
+                        </div>
+                        <div class="row" style="margin-top: 40px; margin-bottom: 40px;">
+                            <div class="col-sm-2">
+                                <figure>
+                                    <img src={{bucket[1].photourl}} alt="female" />
+                                </figure>
+                            </div>
+                            <div class="col-sm-10">
+                                <p>[{{bucket[0].whenYear}}.{{bucket[0].whenMonth}}.{{bucket[0].whenDay}} ~ {{bucket[0].limitYear}}.{{bucket[0].limitMonth}}.{{bucket[0].limitDay}}] {{bucket[0].info}}</p>
+                            </div>
+
                         </div>
                     </div>
 
