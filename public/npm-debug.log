@@ -1,0 +1,44 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'ng-flow#~2',
+1 verbose cli   '--save' ]
+2 info using npm@2.11.2
+3 info using node@v0.12.6
+4 verbose install initial load of /home/taewookim/bucket_woohwa/woohwa/public/package.json
+5 warn package.json woohwa@1.0.0 No description
+6 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/angular/package.json
+7 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/angular-animate/package.json
+8 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/angular-aria/package.json
+9 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/angular-material/package.json
+10 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/angular-ui-router/package.json
+11 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/dropzone/package.json
+12 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/jquery/package.json
+13 verbose installManyTop reading scoped package data from /home/taewookim/bucket_woohwa/woohwa/public/node_modules/ngdropzone/package.json
+14 info package.json angular-material@1.0.9 No license field.
+15 info package.json dropzone@4.3.0 No license field.
+16 verbose readDependencies loading dependencies from /home/taewookim/bucket_woohwa/woohwa/public/package.json
+17 silly cache add args [ 'ng-flow#~2', null ]
+18 verbose cache add spec ng-flow#~2
+19 silly cache add parsed spec { raw: 'ng-flow#~2',
+19 silly cache add   scope: null,
+19 silly cache add   name: null,
+19 silly cache add   rawSpec: 'ng-flow#~2',
+19 silly cache add   spec: '/home/taewookim/bucket_woohwa/woohwa/public/ng-flow#~2',
+19 silly cache add   type: 'local' }
+20 error addLocal Could not install /home/taewookim/bucket_woohwa/woohwa/public/ng-flow#~2
+21 verbose stack Error: ENOENT, open '/home/taewookim/bucket_woohwa/woohwa/public/ng-flow#~2'
+21 verbose stack     at Error (native)
+22 verbose cwd /home/taewookim/bucket_woohwa/woohwa/public
+23 error Linux 3.16.0-57-generic
+24 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "ng-flow#~2" "--save"
+25 error node v0.12.6
+26 error npm  v2.11.2
+27 error path /home/taewookim/bucket_woohwa/woohwa/public/ng-flow#~2
+28 error code ENOENT
+29 error errno -2
+30 error enoent ENOENT, open '/home/taewookim/bucket_woohwa/woohwa/public/ng-flow#~2'
+30 error enoent This is most likely not a problem with npm itself
+30 error enoent and is related to npm not being able to find a file.
+31 verbose exit [ -2, true ]

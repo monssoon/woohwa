@@ -3,6 +3,13 @@ bucket_app.controller("bucketlistController", ["$scope", "httpRequest", function
     $scope.taewoo = {"email": '', "profileurl": ''};
     $scope.jaewha = {"email": '', "profileurl": ''};
 
+    $scope.fileupload = false;
+    $scope.fileAdded = function(file)
+    {
+        $scope.fileupload = true;
+        console.log(file);
+    }
+
     httpRequest.send('GET','users')
         .then(
             function(res)
@@ -38,6 +45,10 @@ bucket_app.controller("bucketlistController", ["$scope", "httpRequest", function
             }
         );
 
-    //console.log($flow.files);
+    // $scope.upload = function(photo)
+    // {
+    //     console.log("sdfsdfdsf");
+    // }
+    
 
 }]);
