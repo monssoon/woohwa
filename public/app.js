@@ -1,4 +1,6 @@
-var bucket_app = angular.module("bucket_app", ['ui.router','flow']);
+Dropzone.autoDiscover = false;
+
+var bucket_app = angular.module("bucket_app", ['ui.router','flow','thatisuday.dropzone']);
 
 
 bucket_app.config(function($stateProvider, $urlRouterProvider)
