@@ -4,11 +4,18 @@ bucket_app.controller("bucketlistController", ["$scope", "httpRequest", function
     $scope.jaewha = {"email": '', "profileurl": ''};
 
     $scope.fileupload = false;
-    $scope.fileAdded = function(file)
+    $scope.fileAdded = function(file,flow)
     {
         $scope.fileupload = true;
         console.log(file);
-    }
+        console.log(flow.files);
+    };
+    $scope.fileRemove = function(flow)
+    {
+        console.log(flow);
+        flow.files.pop();
+        $scope.fileupload = false;
+    };
 
     httpRequest.send('GET','users')
         .then(
@@ -44,11 +51,4 @@ bucket_app.controller("bucketlistController", ["$scope", "httpRequest", function
                 console.log(res);
             }
         );
-
-    // $scope.upload = function(photo)
-    // {
-    //     console.log("sdfsdfdsf");
-    // }
-    
-
 }]);
